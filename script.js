@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const minutesElement = document.getElementById('minutes');
     const secondesElement = document.getElementById('secondes');
 
-    const dateFin = new Date('2023-12-31T23:59:59'); // Définissez votre date de fin ici
+    const dateFin = new Date('2023-12-31T23:59:59');
     const interval = setInterval(mettreAJourCompteur, 1000);
 
     function mettreAJourCompteur() {
